@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+  font-size: 3vw;
+  padding-top: 4vh;
+}
+
+form {
+  width: 100%;
+  max-width: 60vw;
+  margin: auto;
+  padding-top: 5vh;
+}
+
+.each_data {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3vh;
+}
+label {
+  font-size: 2vw;
+}
+input {
+  padding: 1rem;
+  outline: none;
+  border-radius: 5px;
+}
+.firstname_error_message,
+.lastname_error_message,
+.email_error_message,
+.password_error_message,
+.telephone,
+.Yourbio_error_message {
+  color: orange;
+  font-weight: bold;
+  padding: 1rem 3rem;
+}
+
+.correct {
+  outline: 3px solid green;
+  border: none;
+}
+button {
+  padding: 1rem 3rem;
+  background-color: grey;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 5vh;
+  font-size: 1.3vw;
+}
+
+.sucessbtn {
+  background-color: green;
+}
